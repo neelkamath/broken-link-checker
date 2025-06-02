@@ -9,7 +9,7 @@ Here are the results of this experiment:
 - Playwright:
     - The results were pretty much the same as those of Puppeteer.
 - `fetch`:
-    - Tested 100 links in 34.93 s, averaging 0.3493 s per link.
+    - Tested 100 links in 15.038 s, averaging 0.15038 s per link.
 
 ## Contributing
 
@@ -38,20 +38,29 @@ Here are the results of this experiment:
 
 ### Usage
 
-- Puppeteer:
+- Lint and format:
 
     ```shell
-    npm run puppeteer
+    npm run biome
     ```
 
-- Playwright:
+- Run the experiment:
 
-    ```shell
-    npm run playwright
-    ```
+    - Puppeteer:
 
-- Node.js `fetch`:
+        ```shell
+        npm run puppeteer
+        ```
 
-    ```shell
-    npm run playwright
-    ```
+    - Playwright:
+
+        ```shell
+        npm run playwright
+        ```
+
+    - Node.js `fetch`:
+
+        ```shell
+        npm run fetch
+        ```
+

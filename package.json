@@ -3,13 +3,15 @@
   "scripts": {
     "puppeteer": "ts-node src/puppeteer.ts",
     "playwright": "ts-node src/playwright.ts",
-    "fetch": "ts-node src/fetch.ts"
+    "fetch": "ts-node src/fetch.ts",
+    "biome": "biome check --apply ."
   },
   "dependencies": {
-    "puppeteer": "21.9.0",
-    "playwright": "1.40.0"
+    "playwright": "1.40.0",
+    "puppeteer": "21.9.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/node": "20.10.5",
     "@types/puppeteer": "5.4.7",
     "ts-node": "10.9.2",
