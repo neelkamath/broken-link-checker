@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "puppeteer": "ts-node src/puppeteer.ts",
+    "playwright": "ts-node src/playwright.ts",
+    "fetch": "ts-node src/fetch.ts"
+  },
+  "dependencies": {
+    "puppeteer": "21.9.0",
+    "playwright": "1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/puppeteer": "5.4.7",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
