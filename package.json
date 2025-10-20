@@ -7,7 +7,7 @@
     "biome": "biome check --apply ."
   },
   "dependencies": {
-    "playwright": "1.40.0",
+    "playwright": "1.55.1",
     "puppeteer": "21.9.0"
   },
   "devDependencies": {
